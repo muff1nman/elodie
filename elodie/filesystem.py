@@ -211,7 +211,7 @@ class FileSystem(object):
                     name,
                 )
 
-        return name.lower()
+        return name.upper()
 
     def get_file_name_definition(self):
         """Returns a list of folder definitions.
